@@ -1,0 +1,23 @@
+.secao-cabecalho h2 {
+  font-size: 1.6rem;
+  border-left: 4px solid #ff0000;
+  padding-left: 12px;
+  margin-bottom: 6px;
+}
+
+.secao-cabecalho p {
+  color: #aaaaaa;
+  font-size: 0.95rem;
+  margin-left: 16px;
+}
+
+.status-msg {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 60px 0;
+  color: #cccccc;
+}
+
+.status-msg.erro {
+  color: #faa5a5;
+}

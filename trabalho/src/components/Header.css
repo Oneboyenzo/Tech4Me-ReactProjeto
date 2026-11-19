@@ -1,0 +1,44 @@
+.header {
+  background-color: #000000;
+  padding: 16px 32px;
+  border-bottom: 1px solid #fffefe;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #ffffff; /* Amarelo estilo IMDb */
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #ff0000;
+}

@@ -1,0 +1,112 @@
+.banner {
+  background: linear-gradient(135deg, #000000 0%, #ffffff 100%);
+  border: 1px solid #2c2c2c;
+  border-radius: 12px;
+  padding: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 40px;
+}
+
+.banner-texto {
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.banner-badge {
+  background-color: #ff0000;
+  color: #000000;
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 4px;
+  width: fit-content;
+}
+
+.banner-texto h1 {
+  font-size: 2.2rem;
+  line-height: 1.2;
+}
+
+.banner-texto p {
+  color: #cccccc;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.banner-filme-info {
+  background-color: rgb(93, 82, 82);
+  padding: 12px 16px;
+  border-left: 4px solid #ff0000;
+  border-radius: 4px;
+}
+
+.banner-filme-info h2 {
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+}
+
+.banner-filme-info span {
+  font-size: 0.9rem;
+  color: #bbbbbb;
+}
+
+.banner-botoes {
+  display: flex;
+  gap: 14px;
+  margin-top: 8px;
+}
+
+.btn-primario {
+  background-color: #ff0000;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.btn-primario:hover {
+  opacity: 0.9;
+}
+
+.btn-secundario {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  border: 1px solid #444444;
+  transition: background-color 0.2s;
+}
+
+.btn-secundario:hover {
+  background-color: #383838;
+}
+
+.banner-imagem img {
+  width: 220px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner-badge {
+    margin: 0 auto;
+  }
+
+  .banner-botoes {
+    justify-content: center;
+  }
+}
